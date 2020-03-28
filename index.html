@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -12,48 +12,79 @@
   </head>
   <body>
     
+    <div class="container-fuid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand h2" href="#">CSS Felx & Grid</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">FelxBox</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="css-grid-flexbox.html">Fexbox & Grid</a>
+                </li>
+                
+              </ul>
+            </div>
+        </nav>
+    </div>
+    
     <!-- Create a menu -->
-    <div class="menu">
-        <ul class="menu-nav">
-            <li class="menu-nav-item">Item 1</li>
-            <li class="menu-nav-item">Item 2</li>
-            <li class="menu-nav-item">Item 3</li>
-        </ul>
+    <div class="bg-light mt-4 mb-4 p-4">
+        <div class="menu">
+            <ul class="menu-nav">
+                <li class="menu-nav-item">Item 1</li>
+                <li class="menu-nav-item">Item 2</li>
+                <li class="menu-nav-item">Item 3</li>
+            </ul>
+        </div>
     </div>
 
     <!-- centering -->
-    <div class="hero">
-        <h1>This is a headline here</h1>
-        <button>Do Some Flexy Things</button>
+    <div class="bg-light mb-4">
+        <div class="hero">
+           <div class="hero-inner">
+                <h1>This is a headline here</h1>
+                <button class="btn btn-outline-primary">Do Some Flexy Things</button>
+           </div>
+        </div>
     </div>
 
 
     <!-- Slide by side elements -->
-    <div class="two-up">
-        <!-- image div -->
-        <div class="two-up-image">
-            <img src="https://www.wallpaperflare.com/static/627/296/896/cityscape-architecture-street-poland-wallpaper.jpg" alt="">
-        </div>
-    
-        <!-- text div -->
-        <div class="two-up-text">
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            </p>
+    <div class="bg-light mb-4">
+        <div class="two-up">
+            <!-- image div -->
+            <div class="two-up-image">
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/happy-quotes-psdthe-secret-1550850742.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="">
+            </div>
+        
+            <!-- text div -->
+            <div class="two-up-text">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </p>
 
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            </p>
-        </div>
-    </div> <!-- ./Slide by side elements -->
-
-
-    <!-- Visually reordering content -->
-    <div class="reorder">
-        <h1 class="reorder-headline">A Greate Headline!</h1>
-        <p class="reorder-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-        </p>
-        <button class="reorder-button">Click on me!!</button>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </p>
+            </div>
+        </div> <!-- ./Slide by side elements -->
     </div>
 
+    <!-- Visually reordering content -->
+    <div class="bg-light mb-4 p-4">
+        <div class="reorder">
+            <h1 class="reorder-headline">A Greate Headline!</h1>
+            <p class="reorder-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+            </p>
+            <button class="reorder-button btn btn-outline-success">Click on me!!</button>
+        </div>
+    </div>
 
 
     <!-- Optional JavaScript -->
