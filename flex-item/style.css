@@ -1,0 +1,138 @@
+/* Order */
+.container-1 {
+    display: flex;
+    background-color: rgb(191, 216, 206);
+    padding: 30px;
+    justify-content: center;
+}
+
+.item {
+    text-align: center;
+    margin: 1px;
+    background-color: teal;
+    width: 100px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.item1-1 {
+    height: 10vh;
+    order: 3;
+}
+
+.item1-2 {
+    height: 20vh;
+    order: 2;
+}
+.item1-3 {
+    height: 30vh;
+    order: 5;
+}
+
+.item1-4 {
+    height: 40vh;
+    order:1;
+}
+
+.item1-5 {
+    height: 50vh;
+    order: 4;
+}
+
+/* flex */
+.container-2 {
+    display: flex;
+    background-color: thistle;
+    padding: 30px;
+}
+
+.order-item {
+    padding: 20px;
+    background-color:rgb(222, 222, 228);
+    margin: 10px;
+}
+
+.order-item-1 {
+    flex: 1;
+}
+
+.order-item-2 {
+    flex: 3;
+}
+
+.order-item-3 {
+    flex: 1;
+}
+
+/* flex-grow */
+
+.container-3 {
+    display: flex;
+    background-color: rgb(174, 235, 156);
+    padding: 30px;
+}
+
+.grow-item {
+    background-color:rgb(222, 222, 228);
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.grow-item-4 {
+    flex-grow: 3;
+}
+
+
+/* flex-basis */
+.container-4 {
+    display: flex;
+    background-color: rgb(109, 86, 55);
+    padding: 30px;
+}
+
+.basis-item {
+    background-color:rgb(25, 134, 206);
+    margin: 3px;
+    padding: 10px;
+    flex-basis: 150px;
+}
+
+
+/* self-align */
+.container-5 {
+    display: flex;
+    background-color: rgb(109, 86, 55);
+    padding: 30px;
+    justify-content: space-around;
+    height:30vh;
+}
+
+.self-item {
+    background-color:rgb(77, 216, 65);
+    margin: 3px;
+    padding: 10px;
+    height: 20px;
+}
+
+.self-item-1 {
+    align-self: flex-end;
+}
+
+.self-item-2 {
+    align-self: center;
+}
+
+.self-item-3 {
+    align-self: flex-start;
+}
+
+.self-item-5 {
+    align-self: center;
+}
+
+.self-item-6 {
+    align-self: flex-end;
+}
+

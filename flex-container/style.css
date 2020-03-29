@@ -1,0 +1,142 @@
+.container1 {
+    background-color: aquamarine;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+.container2 {
+    background-color: rgb(194, 238, 174);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row; 
+}
+
+.container3 {
+    background-color: aquamarine;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column; 
+}
+
+.container4 {
+    background-color: aquamarine;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column-reverse; 
+}
+
+.container5 {
+    background-color: rgb(255, 127, 127);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container6 {
+    background-color: rgb(71, 175, 140);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container7 {
+    background-color: rgb(255, 246, 127);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.container8 {
+    background-color: aquamarine;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container9 {
+    background-color: rgb(163, 255, 127);
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container10 {
+    background-color: aquamarine;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container11 {
+    background-color: rgb(150, 20, 117);
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.container12 {
+    background-color: rgb(224, 241, 71);
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container13 {
+    background-color: rgb(156, 86, 156);
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container14 {
+    background-color: rgb(156, 86, 156);
+    margin-bottom: 2rem;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.container15 {
+    background-color: rgb(156, 86, 156);
+    margin-bottom: 2rem;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container16 {
+    background-color: rgb(156, 86, 156);
+    margin-bottom: 2rem;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.container17 {
+    background-color: rgb(156, 86, 156);
+    margin-bottom: 2rem;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+}
+.child-comp17 {
+    background-color: rgb(79, 79, 202);
+    padding: 30px;
+    color: #fff;
+    width:30px;
+    margin: 20px;
+}
+
+
+.child-comp {
+    background-color: rgb(79, 79, 202);
+    padding: 30px;
+    color: #fff;
+    height: 30px;
+    width:30px;
+    margin: 20px;
+}
+
+
+
